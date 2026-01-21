@@ -53,7 +53,7 @@ Final Score =
 
 ---
 
-## 📂 Project Structure
+###📂 Project Structure
 Price_comparison/
 ├── data/
 │ ├── raw_data.csv # Kaggle dataset (not pushed)
