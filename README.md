@@ -51,20 +51,17 @@ Final Score =
 - Kaggle Dataset
 - Git & GitHub
 
+
 ---
 
-###📂 Project Structure
-Price_comparison/
+## 📂 Project Structure
+```bash
 ├── data/
-│ ├── raw_data.csv # Kaggle dataset (not pushed)
-│ ├── clean_data.csv
-│ ├── scored_deals.csv
-│ └── final_deals.csv
+├── raw_data.csv # Kaggle dataset 
 ├── app.py # Streamlit dashboard
 ├── logic.py # Business logic & scoring engine
-├── .gitignore
-
-
+└──.gitignore
+```
 ---
 
 ## ▶️ How to Run the Project
@@ -73,45 +70,45 @@ Price_comparison/
 ```bash
 git clone https://github.com/Nithish-127/smart-price-comparison.git
 cd smart-price-comparison
-
-2️⃣ Create & activate virtual environment
+```
+### 2️⃣ Create & activate virtual environment
+```bash
 python -m venv venv
 venv\Scripts\activate
-
-3️⃣ Install dependencies
+```
+### 3️⃣ Install dependencies
+```bash
 pip install -r requirements.txt
-
-4️⃣ Run business logic
-python logic.
-
-5️⃣ Launch the dashboard
+```
+### 4️⃣ Run business logic
+```bash
+python logic.py
+```
+### 5️⃣ Launch the dashboard
+```bash
 streamlit run app.py
+```
 
 📊 Output
-Ranked list of best product deals
-Buy / Wait / Avoid recommendations
-Automated deal alerts
-Interactive dashboard with filters and charts
+
+- Ranked list of best product deals
+
+- Buy / Wait / Avoid recommendations
+
+- Automated deal alerts
+
+- Interactive dashboard with filters and charts
 
 💼 Use Cases
-E-commerce deal recommendation
-Business & pricing analysis
-Decision-support systems
-Portfolio project for analysts & freshers
+
+- E-commerce deal recommendation
+
+- Business & pricing analysis
+
+- Decision-support systems
+
 
 📌 Author
-
 Nithish Srinivasan
 GitHub: https://github.com/Nithish-127
 
-
----
-
-## ✅ NEXT IMPORTANT STEP (DON’T SKIP)
-
-After pasting README:
-
-```bash
-git add README.md
-git commit -m "Add professional README"
-git push
